@@ -28,6 +28,24 @@
   + .header__nav-item {
     margin-left: 40px;
   }
+  a {
+    position: relative;
+    &::before {
+      position: absolute;
+      content: '';
+      left: 0;
+      bottom: -10px;
+      width: 0;
+      height: 3px;
+      background-color: #E50012;
+      transition: all ease .5s;
+    }
+    &:hover {
+      &::before {
+        width: 100%;
+      }
+    }
+  }
 }
 
 .header-btn {
@@ -45,6 +63,13 @@
 .header__info {
   display: flex;
   align-items: center;
+}
+
+.header__phone {
+  transition: all ease .3s;
+  &:hover {
+    color: #E50012;
+  }
 }
 
 .header_shopping {
