@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'MorganiteBold';
+  src: url("../fonts/Morganite-Bold.eot");
+  src: url("../fonts/Morganite-Bold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Morganite-Bold.woff") format("woff"), 
+  url("../fonts/Morganite-Bold.ttf") format("truetype");  
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'MADEOuterSansBold';
+  src: url("../fonts/MADEOuterSansBold.eot");
+  src: url("../fonts/MADEOuterSansBold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/MADEOuterSansBold.woff") format("woff"), 
+  url("../fonts/MADEOuterSansBold.ttf") format("truetype");  
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "MADEOuterSansLight";
+  src: url("../fonts/MADEOuterSansLight.eot");
+  src: url("../fonts/MADEOuterSansLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MADEOuterSansLight.ttf") format("truetype"),
+    url("../fonts/MADEOuterSansLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

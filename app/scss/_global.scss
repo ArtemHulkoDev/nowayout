@@ -9,10 +9,19 @@ html {
 a {
   display: inline-block;
   text-decoration: none;
+  color: $text;
 }
 
 ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
+  color: $text;
+}
+
+body {
+  font-family: 'MADEOuterSansBold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
 }
