@@ -186,8 +186,8 @@
 }
 
 .catalog-item__genre {
-  font-family: "MADEOuterSansLight";
-  font-weight: normal;
+  font-family: "MADEOuterSansThin";
+  font-weight: 250;
   font-style: normal;
   font-size: 12px;
   img {
@@ -203,6 +203,9 @@
   }
   .catalog-item__title {
     font-size: 36px;
+  }
+  .catalog-item__genre {
+    font-size: 14px;
   }
   .discount__amount {
     font-size: 56px;

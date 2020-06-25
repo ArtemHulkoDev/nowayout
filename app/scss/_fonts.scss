@@ -27,3 +27,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "MADEOuterSansThin";
+  src: url("../fonts/MADEOuterSansThin.eot");
+  src: url("../fonts/MADEOuterSansThin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MADEOuterSansThin.ttf") format("truetype"),
+    url("../fonts/MADEOuterSansThin.woff") format("woff");
+  font-weight: 250;
+  font-style: normal;
+}
